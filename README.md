@@ -29,4 +29,4 @@ mat[num,'pvalue']=1
 
 # Plotting a volcano plot 
 library(EnhancedVolcano)
-EnhancedVolcano(mat,lab = rownames(mat),x = 'log2FC' ,y ='pvalue')![volcano plot](https://user-images.githubusercontent.com/110582335/197957334-08cbcc6c-0fde-4e2e-93dd-6fba9454515b.png)
+EnhancedVolcano(mat,lab = rownames(mat),x = 'log2FC' ,y ='pvalue')![volcano_plot](https://user-images.githubusercontent.com/110582335/197959094-6d2c9411-f515-419d-a0a0-7308a520442d.jpg)
