@@ -1,6 +1,6 @@
 # Differential-Gene-Expression
 
-# To identify genes which are differential in tumor vs control samples
+# To identify the genes which are differential in tumor vs control samples
 
 logcpm=source("logCPM.rds")
 
