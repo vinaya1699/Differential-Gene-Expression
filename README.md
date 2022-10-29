@@ -20,9 +20,13 @@ for(i in 1:nrow(logcpm)){
   vector2 = as.numeric(logcpm[i, 8:11])
   
   res=t.test(vector1, vector2, paired = F, alternative = "two.sided")
+  
   mat[i,1]=res$estimate[[1]]
+  
   mat[i,2]=res$estimate[[2]]
+  
   mat[i,3]=res$p.value
+  
   mat[i,4]=mat[i,1]-mat[i,2]
   
 }
