@@ -8,6 +8,9 @@ logcpm=source("logCPM.rds")
 
 ![image](https://user-images.githubusercontent.com/110582335/198826384-45ef4420-c025-41b5-8e61-4246804b8de7.png)
 
+# Summary of data used i.e. logcpm 
+![image](https://user-images.githubusercontent.com/110582335/198827084-553700f5-ecc4-491d-8716-9b3d9c052f29.png)
+
 # Creating a dataframe
 mat=matrix(NA,ncol=4,nrow = nrow(logcpm))
 rownames(mat)=rownames(logcpm)
