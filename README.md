@@ -5,15 +5,6 @@
 logcpm=source("logCPM.rds")
 
 #logcpm contains log of CPM of provided bulk cell data .
-##Reading an input cancer data file
-#data_file=read.csv("C:/Users/91973/Desktop/3rd_semester/Cancer_analysis/GSE149650_Read_counts.csv",sep=",",header=T,row.names = 1)
-##Create a count per matrix
-#cpmatrix=data_file
-#for(i in 1:ncol(data_file)){
-#cpmatrix[,i]=(data_file[,i]/sum(data_file[,i]))*1000000
-#}
-##Calculate a log of cpm
-#logcpm=log2(cpmatrix+1)
 
 ![image](https://user-images.githubusercontent.com/110582335/198826384-45ef4420-c025-41b5-8e61-4246804b8de7.png)
 
