@@ -44,3 +44,16 @@ mat[num,'pvalue']=1
 # Plotting a volcano plot 
 library(EnhancedVolcano)
 EnhancedVolcano(mat,lab = rownames(mat),x = 'log2FC' ,y ='pvalue')![volcano_plot](https://user-images.githubusercontent.com/110582335/197959094-6d2c9411-f515-419d-a0a0-7308a520442d.jpg)
+
+# Interpretation :- 
+1) Highly expressed upregulated genes :-
+  ENSG00000139364
+  ENSG00000013588
+  ENSG00000198223
+  ENSG00000121570
+2) Highly expressed downregulated genes :-
+  ENSG00000102804
+  ENSG00000196549
+  ENSG00000231298
+  ENSG00000111371
+  ENSG00000135821
