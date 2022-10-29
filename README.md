@@ -15,6 +15,7 @@ logcpm=source("logCPM.rds")
 mat=matrix(NA,ncol=4,nrow = nrow(logcpm))
 rownames(mat)=rownames(logcpm)
 colnames(mat)=c('meanTumor','meanControl','pvalue','log2FC')
+![image](https://user-images.githubusercontent.com/110582335/198827130-d3eba90d-1943-452d-bdd8-2be0177db3c1.png)
 
 # Column 1 to 7 contain tumorous genes whereas 8 to 11 contain control gene samples
 for(i in 1:nrow(logcpm)){
