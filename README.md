@@ -13,7 +13,9 @@ logcpm=source("logCPM.rds")
 
 # Creating a dataframe
 mat=matrix(NA,ncol=4,nrow = nrow(logcpm))
+
 rownames(mat)=rownames(logcpm)
+
 colnames(mat)=c('meanTumor','meanControl','pvalue','log2FC')
 
 ![image](https://user-images.githubusercontent.com/110582335/198827130-d3eba90d-1943-452d-bdd8-2be0177db3c1.png)
