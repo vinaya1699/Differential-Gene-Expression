@@ -3,6 +3,7 @@
 # To identify the genes which are differential in tumor vs control samples
 
 logcpm=source("logCPM.rds")
+![image](https://user-images.githubusercontent.com/110582335/198826145-5d8a97b2-a13a-4767-8a0f-695a4eaeeecb.png)
 
 # Creating a dataframe
 mat=matrix(NA,ncol=4,nrow = nrow(logcpm))
