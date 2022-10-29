@@ -27,6 +27,7 @@ for(i in 1:nrow(logcpm)){
 mat=as.data.frame(mat)
 num=which(is.nan(mat$pvalue))
 mat[num,'pvalue']=1
+![image](https://user-images.githubusercontent.com/110582335/198826249-3ac30081-2b46-4f7d-ae8f-73d14b617b5b.png)
 
 # Plotting a volcano plot 
 library(EnhancedVolcano)
